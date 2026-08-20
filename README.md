@@ -11,9 +11,9 @@ This project allows users to add tasks to a list and remove tasks when they are 
 
 ## 📸 Preview
 
-![Todo List App Preview](./Images/snap1.png)
-![Todo List App Preview](./Images/snap2.png)
-![Todo List App Preview](./Images/snap3.png)
+![Todo List App Preview](./Images/Snap-1.png)
+![Todo List App Preview](./Images/Snap-2.png)
+![Todo List App Preview](./Images/Snap-3.png)
 
 
 
