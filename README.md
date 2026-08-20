@@ -6,9 +6,6 @@ This project allows users to add tasks to a list and remove tasks when they are 
 
 ## 🚀 Live Demo
 
-🔗 **Live Website:**
-`https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/`
-
 ## 📸 Preview
 
 ![Todo List App Preview](./Images/Snap-1.png)
@@ -97,7 +94,7 @@ Frontend / Java Full Stack Developer Aspirant
 ### Connect With Me
 
 * GitHub: `https://github.com/laxmidharvicky-tech`
-* LinkedIn: `YOUR-LINKEDIN-PROFILE`
+* LinkedIn: `www.linkedin.com/in/laxmidhar-jena-b70b0741b`
 
 ---
 
