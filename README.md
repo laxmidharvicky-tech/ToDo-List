@@ -87,7 +87,7 @@ Some features I plan to add in the future:
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Laxmidhar Jena**
 
 Frontend / Java Full Stack Developer Aspirant
 
