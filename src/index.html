@@ -5,18 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ToDo-List</title>
     <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./script.js" defer></script>
   </head>
   <body>
-    <form class="border-2 min-h-screen flex justify-center">
-      <div>
-        <label for="" class="text-4xl font-bold ">Enter A Task:</label><br />
-        <input type="text" placeholder="Enter A Task" />
+    <form class="h-[350px] flex justify-center bg-[#f1f5f9]">
+      <div
+        class="mt-10 flex flex-col h-60 justify-center md:flex-row h-40 w-[600px] justify-center items-center rounded-2xl shadow-2xl"
+      >
+        <i
+          class="fa-solid fa-clipboard-list fa-2x"
+          style="color: rgb(61, 155, 229)"
+        ></i>
+        <label for="" class="text-xl font-bold whitespace-nowrap"
+          >Enter A Task:</label
+        ><br />
+        <input
+          id="input"
+          type="text"
+          placeholder="Enter A Task"
+          class="ml-4 border-2 border-[#94a3b8] text-center h-9 rounded-xl"
+        />
         <br />
-        <button>Add Task</button>
+        <button
+          id="adddo"
+          onclick="fun(event)"
+          class="border-2 ml-5 w-24 h-9 rounded-xl bg-[#2563eb] text-white font-bold cursor-pointer hover:bg-[#1d4ed8]"
+        >
+          Add
+        </button>
+        <button
+          id="deldo"
+          onclick="fundel()"
+          class="mt-3 md: mb-3 ml-3 border-2 w-24 h-9 rounded-xl bg-red-600 text-white font-bold cursor-pointer hover:bg-red-700"
+        >
+          Delete All
+        </button>
       </div>
-       <ul>
-
-        </ul>
     </form>
+    <div class="sm:flex justify-center items-center">
+      <ul id="list"></ul>
+    </div>
   </body>
 </html>
